@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập JS buổi 2,3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-group">
+            <h3>Bài 1: Tính tiền lương nhân viên</h3>
+            <div class="form-group">
+                <input id="soNgay" class="form-control w-25" placeholder="Số ngày làm">
+            </div>
+            <br>
+            <button onclick="tinhTienLuong()" id="btnTinhTien" class="btn btn-success">Tính tiền</button>
+            <div class="alert alert-success mt-2">
+                Kết quả: <span id="tongLuong"></span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="form-group">
+            <h3>Bài 2: Tính giá trị trung bình</h3>
+            <div class="form-group">
+                <input id="soThu1" class="form-control w-25" placeholder="Số thứ 1">
+            </div>
+            <br>
+            <div class="form-group">
+                <input id="soThu2" class="form-control w-25" placeholder="Số thứ 2">
+            </div>
+            <br>
+            <div class="form-group">
+                <input id="soThu3" class="form-control w-25" placeholder="Số thứ 3">
+            </div>
+            <br>
+            <div class="form-group">
+                <input id="soThu4" class="form-control w-25" placeholder="Số thứ 4">
+            </div>
+            <br>
+            <div class="form-group">
+                <input id="soThu5" class="form-control w-25" placeholder="Số thứ 5">
+            </div>
+            <br>
+            <button onclick="tinhTBCua5So()" id="btnTinhTB" class="btn btn-success">Tính Trung Bình</button>
+            <div class="alert alert-success mt-2">
+                Kết quả: <span id="giaTriTB"></span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="form-group">
+            <h3>Bài 3: Quy đổi tiền</h3>
+            <div class="form-group">
+                <input id="soTienUSD" class="form-control w-25" placeholder="Nhập số tiền USD">
+            </div>
+            <br>
+            <button onclick="doiTienUSD()" id="btnQuyDoi" class="btn btn-success">Quy đổi tiền</button>
+            <div class="alert alert-success mt-2">
+                Kết quả: <span id="soTienVND"></span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="form-group">
+            <h3>Bài 4: Tính diện tích, chu vi hình chữ nhật</h3>
+            <div class="form-group">
+                <input id="chieuDai" class="form-control w-25" placeholder="Nhập chiều dài">
+            </div>
+            <br>
+            <div class="form-group">
+                <input id="chieuRong" class="form-control w-25" placeholder="Nhập chiều rộng">
+            </div>
+            <br>
+            <button onclick="tinhDT_CV()" id="btnTinhDT_CV" class="btn btn-success">Tính Diện Tích và Chu vi</button>
+            <div class="alert alert-success mt-2">
+                Kết quả: <span id="ketQuaDT_CV"></span>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="form-group">
+            <h3>Bài 5: Tính tổng 2 ký số</h3>
+            <div class="form-group">
+                <input id="soNguyen" class="form-control w-25" placeholder="Nhập số có 2 ký số">
+            </div>
+            <br>
+            <button onclick="tinhTongCua2KySo()" id="btnTinhTong2KySo" class="btn btn-success">Tính tổng 2 ký số</button>
+            <div class="alert alert-success mt-2">
+                Kết quả: <span id="tong2KySo"></span>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
